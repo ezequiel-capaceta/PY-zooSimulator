@@ -16,3 +16,7 @@ class Zoo:
     self.animals.append(animal)
     print(f"{self.name} has a(n) {animal}")
   
+  def add_animals(self, animals):
+    self.animals.extend(animals)
+    print(f"{self.name} has many animals")
+  
