@@ -5,3 +5,10 @@ class Person:
       
   def get_name(self):
     return self.name
+
+class Zoo:
+  def __init__(self,name="Local Zoo"):
+    self.name = name
+    self.animals = []
+    self.customers = []
+
