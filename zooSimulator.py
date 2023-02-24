@@ -20,3 +20,7 @@ class Zoo:
     self.animals.extend(animals)
     print(f"{self.name} has many animals")
   
+  def add_customer(self, name):
+    self.customers.append(name)
+    print(f"{name} has entered {self.name}")
+
