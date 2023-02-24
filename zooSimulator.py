@@ -24,3 +24,7 @@ class Zoo:
     self.customers.append(name)
     print(f"{name} has entered {self.name}")
 
+  def remove_customer(self, name):
+    self.customers.remove(name)
+    print(f"{name} has left {self.name}")
+  
