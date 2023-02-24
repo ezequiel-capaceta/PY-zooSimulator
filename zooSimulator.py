@@ -12,3 +12,7 @@ class Zoo:
     self.animals = []
     self.customers = []
 
+  def add_animal(self, animal):
+    self.animals.append(animal)
+    print(f"{self.name} has a(n) {animal}")
+  
